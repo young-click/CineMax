@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import Logo from "../assets/CINEMate-removebg-preview.png";
+import Logo from "../assets/cinescape.png";
 
 export const Header = () => {
   const [hidden, setHidden] = useState(true);
@@ -35,7 +35,7 @@ export const Header = () => {
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
               <img src={Logo} className="mr-2 h-8 sm:h-9" alt="Cinemate Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CineScape</span>
           </Link>
 
           <div id="mobile-nav" className="flex md:order-2">
