@@ -7,7 +7,6 @@ export const MovieDetail = () => {
   const params = useParams();
   const [movie, setMovie] = useState({});
   
-  //eslint-disable-next-line
   const pageTitle = useTitle(movie.title);
 
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : Backup ;
@@ -24,7 +23,7 @@ export const MovieDetail = () => {
 
   return (
     <main>
-      <section className="flex justify-around flex-wrap py-5">
+      <section className="flex justify-around flex-wrap py-5 " >
         <div className="max-w-sm">
           <img className="rounded" src={image} alt={movie.title} />
         </div>
