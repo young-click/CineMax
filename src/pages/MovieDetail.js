@@ -6,11 +6,10 @@ export const MovieDetail = () => {
   const params = useParams();
   const [movie, setMovie] = useState({});
   
-<<<<<<< HEAD
-=======
-  //eslint-disable-next-line
-  const pageTitle = useTitle(movie.title);
->>>>>>> parent of de70249 (Logo update)
+// <<<<<<< HEAD
+//   //eslint-disable-next-line
+//   const pageTitle = useTitle(movie.title);
+// >>>>>>> parent of de70249 (Logo update)
 
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : Backup ;
 
